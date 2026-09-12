@@ -22,5 +22,6 @@
 
         <button type="submit">Ingresar</button>
     </form>
+    <script src="../assets/js/login.js"></script>
 </body>
 </html>

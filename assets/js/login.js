@@ -6,7 +6,7 @@ formulario.addEventListener('submit', (evento)=>{
 
     if (correo.trim() === '' || contraseña.trim() === '') {
         evento.preventDefault();
-        alert('Por favor completa todos los camps.');
+        alert('Por favor completa todos los campos.');
     }
 
 })

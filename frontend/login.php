@@ -15,8 +15,8 @@
 
         <br></br>
 
-        <label for="contraseña">Contraseña:</label>
-        <input type="password" name="contraseña" id="contraseña" required>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" name="contrasena" id="contrasena" required>
 
         <br></br>
 

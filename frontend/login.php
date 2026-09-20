@@ -9,7 +9,7 @@
 <body>
     <h1>Iniciar sesion</h1>
 
-    <form action="../backend/login.php" method="$_POST">
+    <form action="../backend/login.php" method="POST">
         <label for="correo">Correo:</label>
         <input type="email" name="correo" id="correo" required>
 

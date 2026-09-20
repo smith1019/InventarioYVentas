@@ -1,5 +1,9 @@
 <?php
+require '../backend/verificar_sesion.php';
+verificarRol([1]); // Solo el Dueño puede entrar aquí
+
 require '../backend/conexion.php';
+// ... resto del código
 
 $roles = mysqli_query($conexion, "SELECT id_rol, nombre_rol FROM rol");
 ?>
